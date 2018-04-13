@@ -953,8 +953,4 @@ config ONEPLUS_PROJECT_INFO
 	help
 	  Used by various OnePlus drivers, disable this and you will have a hard time.
 
-config STATE_NOTIFIER
-	bool "State Notifier"
-	default y
-
 source "drivers/soc/qcom/memshare/Kconfig"
